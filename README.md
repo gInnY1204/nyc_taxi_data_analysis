@@ -1,4 +1,4 @@
-# NYC_Taxi_Data_Analysis
+# NYC_Taxi_Data_Distribution(Analysis)
 
 |Column|Description|Figure|
 |------|---|---|
