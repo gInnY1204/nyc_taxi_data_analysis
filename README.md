@@ -6,17 +6,17 @@
 |tpep_pickup_datetime|The date and time when the meter was engaged|![Distribution_of_pickup_date](https://github.com/user-attachments/assets/4feb35d4-235c-4750-ab9b-87abbbbc5f0f)|
 |tpep_dropoff_datetime|The date and time when the meter was disengaged|![Distribution_of_dropoff_date](https://github.com/user-attachments/assets/df6cd918-3f88-4a69-bbf7-38199717b93a)|
 |passenger_count|The number of passengers in the vehicle. This is a driver-entered value|![passenger_count](https://github.com/user-attachments/assets/ee618060-24c3-43b2-902f-a5d6de5823e7)|
-|trip_distance|The elapsed trip distance in miles reported by the taximeter|![Distribution_of_trip_dist](https://github.com/user-attachments/assets/d0d83cb3-45dd-456a-b4fa-0148053dc86f)|
+|trip_distance|The elapsed trip distance in miles reported by the taximeter|![trip_distance](https://github.com/user-attachments/assets/4ba4d1bd-a3d8-4edf-90eb-3b85fa168146)|
 |pickup_location|location where the meter was engaged|![pickup_loc](https://github.com/user-attachments/assets/8cfae76a-9d2a-4b66-945f-439de301059c "pickup_loc")|
 |dropoff_location|location where the meter was disengaged|![dropoff_loc](https://github.com/user-attachments/assets/12631b94-a945-4f63-87cd-efcb03df573e "dropoff_loc")|
 |RateCodeID|The final rate code in effect at the end of the trip<br>1. Standard rate<br>2. JFK<br>3. Newark<br>4. Nassau or Westcheter<br>5. Negotiated fare<br>6. Group ride|![RateCode_ID](https://github.com/user-attachments/assets/00316c46-1cfc-4d4e-a259-2a3baacb2410)|
-|store_and_fwd_flag|This flag indicates whether the trip record was held in vehicle memory before sending to the vendor,aka “store and forward,” because the vehicle did not have a connection to the server.<br>Y= store and forward trip<br>N= not a store and forward trip|![Distribution_of_store_and_fwd_flag](https://github.com/user-attachments/assets/eb8ea700-7cd1-4803-ab92-430f795f4041)|
-|payment_type|A numeric code signifying how the passenger paid for the trip<br>1. Credit card<br>2. Cash<br>3. No Charge<br>4. Dispute<br>5. Unknown<br>6. Voided trip|![Distribution_of_payment_type](https://github.com/user-attachments/assets/43e2f8bd-3c15-41a5-9151-09206b704deb)|
+|store_and_fwd_flag|This flag indicates whether the trip record was held in vehicle memory before sending to the vendor,aka “store and forward,” because the vehicle did not have a connection to the server.<br>Y= store and forward trip<br>N= not a store and forward trip|![store_and_fwd_flag](https://github.com/user-attachments/assets/8cf4f6e7-2222-4ca0-8f54-b7298da843ec)|
+|payment_type|A numeric code signifying how the passenger paid for the trip<br>1. Credit card<br>2. Cash<br>3. No Charge<br>4. Dispute<br>5. Unknown<br>6. Voided trip|![payment_type](https://github.com/user-attachments/assets/b5fbde1f-f2b4-47c1-af3e-e73e228a70d4)|
 |fare_amount|The time-and-distance fare calculated by the meter|![Distribution_of_fare_amount](https://github.com/user-attachments/assets/e8881dc4-fbaa-4873-bc5d-034364866a96)|
-|extra|Miscellaneous extras and surcharges. Currently, this only includes. the $0.50 and $1 rush hour and overnight charges|image|
-|mta_tax|0.50 MTA tax that is automatically triggered based on the metered rate in use|image|
-|improvement_surcharge|0.30 improvement surcharge assessed trips at the flag drop. the improvement surcharge began being levied in 2015|image|
-|tip_amount|Tip amount – This field is automatically populated for credit card tips.Cash tips are not included|image|
-|tolls_amount|Total amount of all tolls paid in trip|image|
-|total_amount|The total amount charged to passengers. Does not include cash tips|image|
+|extra|Miscellaneous extras and surcharges. Currently, this only includes. the $0.50 and $1 rush hour and overnight charges|![extra](https://github.com/user-attachments/assets/045e46cb-0cf1-4794-bf00-22156fab3af1)|
+|mta_tax|0.50 MTA tax that is automatically triggered based on the metered rate in use|![mta_tax](https://github.com/user-attachments/assets/e80c130e-c708-4128-999f-9d3c0b271a45)|
+|improvement_surcharge|0.30 improvement surcharge assessed trips at the flag drop. the improvement surcharge began being levied in 2015|![improvement_surcharge](https://github.com/user-attachments/assets/849a73d4-e446-4b5f-8277-7bcff546d33a)|
+|tip_amount|Tip amount – This field is automatically populated for credit card tips.Cash tips are not included|![tip_amount](https://github.com/user-attachments/assets/df364826-b411-4ed7-a82c-4f0c44fb89ec)|
+|tolls_amount|Total amount of all tolls paid in trip|![tolls_amount](https://github.com/user-attachments/assets/33cb5ba9-0c5d-4ddb-897b-f59957b4fcad)|
+|total_amount|The total amount charged to passengers. Does not include cash tips|![total_amount](https://github.com/user-attachments/assets/3012fa5e-deb0-4791-aec7-5bbdc3755328)|
 
