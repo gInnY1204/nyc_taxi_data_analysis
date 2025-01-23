@@ -2,8 +2,8 @@
 
 |Column|Description|Figure|
 |------|---|---|
-|VenderID|A code indicating the TPEP provider that provided the record <br> 1.Creative Mobile Technologies <br> 2. VeriFone Inc <br> *TPEP: Taxi Passenger Enhancements Program|![대체 텍스트(alt)](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgv0WnC1hJDGCnFY9bLVNCubV_SH5CZ-vhzovfDVveELaWSO09AEsDSLQD2CNBZxfi2Ok&usqp=CAU "이미지 설명(title)")|
-|tpep_pickup_datetime|The date and time when the meter was engaged|테스트3|
+|VenderID|A code indicating the TPEP provider that provided the record <br> 1.Creative Mobile Technologies <br> 2. VeriFone Inc <br> *TPEP: Taxi Passenger Enhancements Program|![vendorID](https://github.com/user-attachments/assets/b847a4ee-1f00-459f-9312-21d336e14551)"vendorID")|
+|tpep_pickup_datetime|The date and time when the meter was engaged|![Distribution_of_pickup_date](https://github.com/user-attachments/assets/4feb35d4-235c-4750-ab9b-87abbbbc5f0f)|
 |tpep_dropoff_datetime|The date and time when the meter was disengaged|테스트3|
 |passenger_count|The number of passengers in the vehicle. This is a driver-entered value|![Image](https://github.com/user-attachments/assets/a4d1a057-9a76-4b26-89ed-a4ffd5cbdaf1)|
 |trip_distance|The elapsed trip distance in miles reported by the taximeter|image|
