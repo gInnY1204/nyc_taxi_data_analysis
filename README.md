@@ -9,10 +9,9 @@
 |trip_distance|The elapsed trip distance in miles reported by the taximeter|![Distribution_of_trip_dist](https://github.com/user-attachments/assets/d0d83cb3-45dd-456a-b4fa-0148053dc86f)|
 |pickup_location|location where the meter was engaged|![pickup_loc](https://github.com/user-attachments/assets/8cfae76a-9d2a-4b66-945f-439de301059c "pickup_loc")|
 |dropoff_location|location where the meter was disengaged|![dropoff_loc](https://github.com/user-attachments/assets/12631b94-a945-4f63-87cd-efcb03df573e "dropoff_loc")|
-|RateCodeID|The final rate code in effect at the end of the trip<br>1. Standard rate<br>2. JFK<br>3. Newark<br>4. Nassau or Westcheter<br>5. Negotiated fare<br>6. Group ride|![Distribution_of_ratecode_ID](https://github.com/user-attachments/assets/2ab3d1c3-494b-472c-992a-77db7e700044)|
+|RateCodeID|The final rate code in effect at the end of the trip<br>1. Standard rate<br>2. JFK<br>3. Newark<br>4. Nassau or Westcheter<br>5. Negotiated fare<br>6. Group ride|![RateCode_ID](https://github.com/user-attachments/assets/00316c46-1cfc-4d4e-a259-2a3baacb2410)|
 |store_and_fwd_flag|This flag indicates whether the trip record was held in vehicle memory before sending to the vendor,aka “store and forward,” because the vehicle did not have a connection to the server.<br>Y= store and forward trip<br>N= not a store and forward trip|![Distribution_of_store_and_fwd_flag](https://github.com/user-attachments/assets/eb8ea700-7cd1-4803-ab92-430f795f4041)|
-|payment_type|A numeric code signifying how the passenger paid for the trip<br>1. Credit card<br>2. Cash<br>3. No Charge<br>4. Dispute<br>5. Unknown<br>6. Voided trip|![Distribution_of_payment_type](https://github.com/user-attachments/assets/43e2f8bd-3c15-41a5-9151-09206b704deb)
-|
+|payment_type|A numeric code signifying how the passenger paid for the trip<br>1. Credit card<br>2. Cash<br>3. No Charge<br>4. Dispute<br>5. Unknown<br>6. Voided trip|![Distribution_of_payment_type](https://github.com/user-attachments/assets/43e2f8bd-3c15-41a5-9151-09206b704deb)|
 |fare_amount|The time-and-distance fare calculated by the meter|![Distribution_of_fare_amount](https://github.com/user-attachments/assets/e8881dc4-fbaa-4873-bc5d-034364866a96)|
 |extra|Miscellaneous extras and surcharges. Currently, this only includes. the $0.50 and $1 rush hour and overnight charges|image|
 |mta_tax|0.50 MTA tax that is automatically triggered based on the metered rate in use|image|
