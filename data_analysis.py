@@ -21,7 +21,7 @@ import folium
 # print("data.info(): ",data.info())
 
 #################################################################################################
-#데이터 불러오기(한번에)
+#데이터 불러오기(2015-01)
 #################################################################################################
 # CSV 파일 로드
 data = pd.read_csv("./nyc_taxi/yellow_tripdata_2015-01.csv")  # 파일 이름은 실제 파일명으로 변경
@@ -208,37 +208,28 @@ plt.savefig('Distribution_of_total_amount.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 
-# #pickup_longitude & latitude
-#
-# lat = 40.7388
-# lon = -73.9944
-#
-# pickup_map = folium.Map(location=[lat, lon], zoom_start=12)
-#
-# for _, row in data.head(50).iterrows():
-#     folium.Marker([row['pickup_latitude'], row['pickup_longitude']],
-#                   popup=f"Pickup Location",
-#                   icon=folium.Icon(color='blue')
-#                   ).add_to(pickup_map)
-#
-# pickup_map.save("./nyc_taxi/pickup_map.html")
-#
-# dropoff_map = folium.Map(location=[lat, lon], zoom_start=12)
-#
-# for _, row in data.head(50).iterrows():
-#     folium.Marker([row['dropoff_latitude'], row['dropoff_longitude']],
-#                   popup=f"Dropoff Location",
-#                   icon=folium.Icon(color='red')
-#                   ).add_to(dropoff_map)
-#
-# dropoff_map.save("./nyc_taxi/dropoff_map.html")
+#pickup_longitude & latitude
 
+lat = 40.7388
+lon = -73.9944
 
+pickup_map = folium.Map(location=[lat, lon], zoom_start=12)
 
+for _, row in data.head(50).iterrows():
+    folium.Marker([row['pickup_latitude'], row['pickup_longitude']],
+                  popup=f"Pickup Location",
+                  icon=folium.Icon(color='blue')
+                  ).add_to(pickup_map)
 
-## data['payment_type'].hist(bins=2, figsize=(10,5))
-# plt.title('Trip Distance Distribution')
-# plt.xlabel('Trip Distance(miles)')
-# plt.ylabel('Frequency')
-# plt.show()
+pickup_map.save("./nyc_taxi/pickup_map.html")
+
+dropoff_map = folium.Map(location=[lat, lon], zoom_start=12)
+
+for _, row in data.head(50).iterrows():
+    folium.Marker([row['dropoff_latitude'], row['dropoff_longitude']],
+                  popup=f"Dropoff Location",
+                  icon=folium.Icon(color='red')
+                  ).add_to(dropoff_map)
+
+dropoff_map.save("./nyc_taxi/dropoff_map.html")
 
