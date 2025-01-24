@@ -21,4 +21,4 @@
 |total_amount|The total amount charged to passengers. Does not include cash tips|![total_amount](https://github.com/user-attachments/assets/3012fa5e-deb0-4791-aec7-5bbdc3755328)|
 
 ## Reference
-<br>https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data
+https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data
