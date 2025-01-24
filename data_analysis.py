@@ -7,7 +7,7 @@ import folium
 #################################################################################################
 #데이터 불러오기(한번에)
 #################################################################################################
-# file_paths = glob.glob('/home/unist51002/PycharmProjects/map_analysis/data/nyc_taxi/*.csv')
+# file_paths = glob.glob('./nyc_taxi/*.csv')
 #
 # dataframes = []
 #
@@ -24,7 +24,7 @@ import folium
 #데이터 불러오기(한번에)
 #################################################################################################
 # CSV 파일 로드
-data = pd.read_csv("/home/unist51002/PycharmProjects/map_analysis/data/nyc_taxi/yellow_tripdata_2015-01.csv")  # 파일 이름은 실제 파일명으로 변경
+data = pd.read_csv("./nyc_taxi/yellow_tripdata_2015-01.csv")  # 파일 이름은 실제 파일명으로 변경
 print(data.head())  # 데이터의 첫 5개 행 출력
 print(data.info())  # 데이터 요약 정보 출력
 
@@ -221,7 +221,7 @@ plt.show()
 #                   icon=folium.Icon(color='blue')
 #                   ).add_to(pickup_map)
 #
-# pickup_map.save("/home/unist51002/PycharmProjects/map_analysis/data/nyc_taxi/pickup_map.html")
+# pickup_map.save("./nyc_taxi/pickup_map.html")
 #
 # dropoff_map = folium.Map(location=[lat, lon], zoom_start=12)
 #
@@ -231,7 +231,7 @@ plt.show()
 #                   icon=folium.Icon(color='red')
 #                   ).add_to(dropoff_map)
 #
-# dropoff_map.save("/home/unist51002/PycharmProjects/map_analysis/data/nyc_taxi/dropoff_map.html")
+# dropoff_map.save("./nyc_taxi/dropoff_map.html")
 
 
 
